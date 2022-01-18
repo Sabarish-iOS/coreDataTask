@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         myTableView.delegate = self
         myTableView.dataSource = self
     }
+    //ViewWillAppear
     override func viewWillAppear(_ animated: Bool) {
         let app = UIApplication.shared.delegate as! AppDelegate //CRUD
         let context = app.persistentContainer.viewContext //CRUD
@@ -32,6 +33,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
        
     }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
