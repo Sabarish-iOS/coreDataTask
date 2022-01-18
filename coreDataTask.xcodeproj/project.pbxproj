@@ -16,6 +16,8 @@
 		B322505D27967B7400B19ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B322505B27967B7400B19ED0 /* LaunchScreen.storyboard */; };
 		B322506827967B7400B19ED0 /* coreDataTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322506727967B7400B19ED0 /* coreDataTaskTests.swift */; };
 		B322507327967B7400B19ED0 /* coreDataTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322507227967B7400B19ED0 /* coreDataTaskUITests.swift */; };
+		B322508127967D9000B19ED0 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322508027967D9000B19ED0 /* customTableViewCell.swift */; };
+		B322508327967DFA00B19ED0 /* savedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322508227967DFA00B19ED0 /* savedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B322506E27967B7400B19ED0 /* coreDataTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreDataTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B322507227967B7400B19ED0 /* coreDataTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataTaskUITests.swift; sourceTree = "<group>"; };
 		B322507427967B7400B19ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B322508027967D9000B19ED0 /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		B322508227967DFA00B19ED0 /* savedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				B322504D27967B7100B19ED0 /* AppDelegate.swift */,
 				B322504F27967B7100B19ED0 /* SceneDelegate.swift */,
 				B322505127967B7100B19ED0 /* ViewController.swift */,
+				B322508227967DFA00B19ED0 /* savedViewController.swift */,
+				B322508027967D9000B19ED0 /* customTableViewCell.swift */,
 				B322505327967B7100B19ED0 /* Main.storyboard */,
 				B322505927967B7400B19ED0 /* Assets.xcassets */,
 				B322505B27967B7400B19ED0 /* LaunchScreen.storyboard */,
@@ -263,6 +269,8 @@
 			files = (
 				B322505227967B7100B19ED0 /* ViewController.swift in Sources */,
 				B322504E27967B7100B19ED0 /* AppDelegate.swift in Sources */,
+				B322508327967DFA00B19ED0 /* savedViewController.swift in Sources */,
+				B322508127967D9000B19ED0 /* customTableViewCell.swift in Sources */,
 				B322505027967B7100B19ED0 /* SceneDelegate.swift in Sources */,
 				B322505827967B7100B19ED0 /* coreDataTask.xcdatamodeld in Sources */,
 			);
