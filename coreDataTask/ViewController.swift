@@ -31,7 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         } catch let err as NSError {
             print(err.localizedDescription)
         }
-       
+       print("Hello")
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -49,11 +49,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         return cell
     }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 180
     }
-    
-    
-    
 }
 
